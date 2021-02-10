@@ -1,4 +1,4 @@
 fn main() {
-    pintln!("Hello, 🦀");
+    println!("Hello, 🦀");
 }
 
