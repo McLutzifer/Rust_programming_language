@@ -1,3 +1,5 @@
+const PI: f32 = 3.14159;
+
 fn main() {
 
     let mut x: f64 = 3.141;
@@ -21,4 +23,6 @@ fn main() {
         "{} {}",
         a, b
     );
+
+    println!("{}", PI);
 }
