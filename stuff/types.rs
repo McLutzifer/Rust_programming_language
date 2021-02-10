@@ -13,4 +13,12 @@ fn main() {
     let z;
     z = "Hi";
     println!("{}", z);
+
+    let a : f64 = 4.3;
+    let b = 4.3f32; // by default this is f64
+
+    println!(
+        "{} {}",
+        a, b
+    );
 }
