@@ -1,11 +1,11 @@
 use std::io;                //to get user input
-use std::cmp::Ordering;     // add rand = "0.3.14" to dependencies in toml
-use rand::Rng;
+use std::cmp::Ordering;     
+use rand::Rng;              // add rand = "0.3.14" to dependencies in toml
 
 fn main() {
     println!("Guess the number!");
 
-    let secret_number = rand::thread_rng().gen_range(1, 101);
+    let secret_number = rand::thread_rng().gen_range(1, 101);       //creating random number
 
     println!("The secret number is: {}", secret_number);
 
