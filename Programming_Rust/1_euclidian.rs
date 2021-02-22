@@ -10,3 +10,11 @@ fn gdc(mut n: u64, mut m: u64) -> u64 {
     }
     n
 } 
+
+
+fn main() {
+    let x = 9;
+    let y = 6;
+
+    gdc(x, y);
+}
