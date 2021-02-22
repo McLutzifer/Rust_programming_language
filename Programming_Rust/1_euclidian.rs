@@ -16,5 +16,5 @@ fn main() {
     let x = 9;
     let y = 6;
 
-    gdc(x, y);
+    println!(gdc(x, y));
 }
