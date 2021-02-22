@@ -1,5 +1,5 @@
 use std::io;                //to get user input
-use std::cmp::Ordering;     
+//use std::cmp::Ordering;     
 use rand::Rng;
 
 fn main() {
