@@ -1,5 +1,5 @@
 use std::io;                //to get user input
-use std::cmp::Ordering;     
+use std::cmp::Ordering;     //enum with LEss, Greater, Equal
 use rand::Rng;              // add rand = "0.3.14" to dependencies in toml
 
 fn main() {
