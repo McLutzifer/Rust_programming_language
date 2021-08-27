@@ -18,5 +18,10 @@ fn main() {
     let implicit_f = 1.3;
 
     // Arithmetic
-    
+    let sum = x + y + 13;
+
+    // Mutable variable
+    let mut mutable = 1;
+    mutable = 4;
+    mutable += 2;
 }
