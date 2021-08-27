@@ -24,4 +24,15 @@ fn main() {
     let mut mutable = 1;
     mutable = 4;
     mutable += 2;
+
+    // Strings //
+
+    // String literals
+    let x: &str = "hello world!";
+
+    // Printing
+    println!("{} {}", f, x);  // 1.3 hello world
+
+    // A `String` - a heap-allocated string
+    let s: String = "hello world".to_string();
 }
